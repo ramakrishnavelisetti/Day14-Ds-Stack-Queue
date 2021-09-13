@@ -34,4 +34,8 @@ public class Operations {
         System.out.println("");
         stacklist.peek();
     }
+    public static void dequeueElement(){
+        Operations.queueElement();
+        Operations.pop();
+    }
 }

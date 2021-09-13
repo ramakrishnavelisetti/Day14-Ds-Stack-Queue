@@ -10,6 +10,7 @@ public class StackQueueMain {
         System.out.println("Enter 2 to show the peek element");
         System.out.println("Enter 3 to show the pop");
         System.out.println("Enter 4 to queue the element");
+        System.out.println("Enter 5 to dequeue the element");
         switch (sc.nextInt()) {
             case 1:
                 Operations.addElement();
@@ -22,6 +23,9 @@ public class StackQueueMain {
                 break;
             case 4:
                 Operations.queueElement();
+                break;
+            case 5:
+                Operations.dequeueElement();
                 break;
         }
     }
